@@ -69,8 +69,7 @@ body {
   color: var(--action-color);
 }
 
-.header-mail,
-.header-phone {
+.header-contact-elmnt {
   font-family: inherit;
   font-style: Medium;
   font-size: inherit;
@@ -82,15 +81,9 @@ body {
   text-decoration: none;
 }
 
-.header-mail:active,
-.header-mail:focus,
-.header-mail:hover {
-  color: var(--link-color);
-}
-
-.header-phone:active,
-.header-phone:focus,
-.header-phone:hover {
+.header-contact-elmnt:active,
+.header-contact-elmnt:focus,
+.header-contact-elmnt:hover {
   color: var(--link-color);
 }
 
@@ -141,21 +134,21 @@ body {
 }
 
 /* trumps */
-/* .top-section { 
+/* .light-txtsection { 
 } */
 
-.top-section-list {
+.light-txtsection-list {
   list-style-type: none;
   /* display: flex;
   flex-direction: row; */
 }
 
-/* .top-section-element {
+/* .light-txtsection-element {
   display: flex;
   flex-direction: row;
 } */
 
-.top-section-title {
+.light-txtsection-title {
   font-family: inherit;
   font-weight: 700;
   font-size: inherit;
@@ -166,7 +159,7 @@ body {
   color: inherit;
 }
 
-.top-section-description {
+.light-txtsection-description {
   font-family: inherit;
   /* font-weight: 400; */
   font-size: inherit;
@@ -177,12 +170,22 @@ body {
   color: var(--text-dark);
 }
 
+.section-title {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17em;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: inherit;
+}
+
 /* .whatwedo*/
 /*
- .middle-section{
+ .light-section{
 } */
 
-.middle-section {
+/* .light-section {
   font-family: inherit;
   font-weight: 700;
   font-size: 36px;
@@ -191,43 +194,34 @@ body {
   letter-spacing: 0.03em;
 
   color: inherit;
-}
+} */
 
-.middle-section-list {
+.light-section-list {
   /* display: flex;
   flex-direction: row; */
   list-style-type: none;
 }
 
-/* .middle-section-item{
+/* .light-section-item{
     display: inline-flex;
     flex-direction: row;
 } */
 
 /*.team*/
-.lower-section {
+.gray-section {
   background: var(--background-mdlcolor);
 }
 
-.lower-section-title {
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17em;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: inherit;
-}
-.lower-section-members {
+.gray-section-members {
   list-style-type: none;
 }
 
-.lower-section-item {
+.gray-section-item {
   background: var(--background-light);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.lower-section-name {
+.gray-section-name {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -237,7 +231,7 @@ body {
   color: inherit;
 }
 
-.lower-section-position {
+.gray-section-position {
   font-family: inherit;
   /* font-weight: 400; */
   font-size: 16px;
@@ -276,8 +270,7 @@ body {
   text-decoration: none;
 }
 
-.footer-mail,
-.footer-phone {
+.footer-contact {
   font-family: inherit;
   /* font-weight: 400; */
   font-size: inherit;
@@ -299,27 +292,21 @@ body {
   color: var(--link-color);
 }
 
-.footer-mail:active,
-.footer-mail:focus,
-.footer-mail:hover {
-  color: var(--link-color);
-}
-
-.footer-phone:active,
-.footer-phone:focus,
-.footer-phone:hover {
+.footer-contact:active,
+.footer-contact:focus,
+.footer-contact:hover {
   color: var(--link-color);
 }
 
 /* filters */
-.first-section {
+.button-section {
   background: inherit;
 }
-.first-section-list {
+.button-section-list {
   list-style-type: none;
 }
 
-.first-section-btn {
+.button-section-btn {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -334,30 +321,30 @@ body {
   border-style: none;
 }
 
-.first-section-btn:active,
-.first-section-btn:focus,
-.first-section-btn:hover {
+.button-section-btn:active,
+.button-section-btn:focus,
+.button-section-btn:hover {
   background: var(--link-color);
   color: var(--text-light);
   cursor: pointer;
 }
 
 /* portfolio */
-.second-section-list {
+.images-section-list {
   list-style-type: none;
 }
 
-.second-section-item {
+.images-section-item {
   box-sizing: border-box;
   background: var(--background-light);
   border: 1px solid var(--border-color);
 }
 
-/* .second-section-img {
+/* .images-section-img {
   height: 294;
   width: 370;
 } */
-.second-section-name {
+.images-section-name {
   font-family: inherit;
   font-weight: 700;
   font-size: 18px;
@@ -366,7 +353,7 @@ body {
   color: inherit;
 }
 
-.second-section-field {
+.images-section-field {
   font-family: inherit;
   /* font-weight: 400; */
   font-size: 16px;
