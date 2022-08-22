@@ -263,6 +263,7 @@ body {
 .footer-address {
   font-family: inherit;
   /* font-weight: 400; */
+  font-style: normal;
   font-size: inherit;
   line-height: 1.71em;
   letter-spacing: 0.03em;
@@ -273,6 +274,7 @@ body {
 .footer-contact {
   font-family: inherit;
   /* font-weight: 400; */
+  font-style: normal;
   font-size: inherit;
   line-height: 1.71em;
   letter-spacing: 0.03em;
